@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="public/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/styles.css">
+    <title>Newtimes Amsterdam</title>
+</head>
+<body id="home">
+    <header class="header">
+      <h1 id="logo" class="header__logo">
+          <a href="#">
+              <img alt="Newtimes logo" src="./public/newtimes-logo-transparent.png">
+              <span>NewTimes</span>
+          </a>
+      </h1>
+    </header>
+    <nav class="hamburger clearfix">
+        <div class="hamburger__box">
+            <div class="hamburger__box__inner"></div>
+        </div>
+    </nav>
+    <nav class="navigation clearfix">
+
+        <ul class="navigation__menu clearfix">
+            <li class="navigation__menu__item"><a data-scroll="#home">Home</a></li>
+            <li class="navigation__menu__item"><a data-scroll="#gallery">Photos</a></li>
+            <li class="navigation__menu__item"><a data-scroll="#contact">Find us</a></li>
+        </ul>
+    </nav>
+    <main id="app" class="site container clearfix" role="main">
+        <div class="banner clearfix">
+            <img src="./public/nt-inside-banner.jpg" alt="Newtimes entree">
+
+            <div class="banner__titles">
+                <h3 class="wow">Welcome to Newtimes Coffeeshop</h3>
+                <h2 class="wow">Your Destination for Quality and Relaxation in the Heart of Amsterdam</h2>
+            </div>
+            <div class="wow skew" data-wow-duration="2.5s">
+                <div class="wow angle-down"><i class="fa fa-angle-down"></i></div>
+            </div>
+        </div>
+
+        
+
+        <section id="intro" class="intro clearfix">
+            <h2 class="wow fadeInUp">About us</h2>
+            <i data-wow-delay=".5s"class="underline wow rotateY"></i>
+            <div data-wow-delay=".2s" class="intro__content wow fadeInUp">
+                <div class="intro__thumbnail">
+                    <img src="./public/nt-logo-banner.png" alt="Newtimes Logo">
+                </div>
+                <div class="intro__content">
+                    <p>
+                    Step into the world of NewTimes Coffeeshop, where premium products meet a welcoming atmosphere. Located in the vibrant center of Amsterdam, we offer a carefully curated selection of high-quality cannabis, edibles, and accessories in a clean, modern setting designed for both locals and visitors.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery clearfix">
+            <h2 class="wow fadeInUp">Photos</h2>
+            <i data-wow-delay="1s" class="underline wow rotateY"></i>
+            <ul class="gallery__list wow fadeInUp">
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-bar.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-frontdoor.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-bg.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-drink-milkshake.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-open.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-prerols.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-hotbox.jpg" alt=""></a>
+                </li>
+                <li class="gallery__list__item">
+                    <a rel="gallery"><img src="./gallery/nt-logo.jpg" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact clearfix">
+            <div class="contact__address">
+                <h2>Address</h2>
+                <div class="inner">
+                    <span class="wow line-hr line-top"></span>
+                    <span>Spuistraat 260, 1012 VW Amsterdam</span>
+                    <span class="wow line-hr line-bottom"></span>
+                </div>
+                <div class="maps">
+                    <a href="http://maps.apple.com/?q=Coffeeshop+New+Times&sll=52.3705697,4.8867463" target="_blank">View on maps</a>
+                </div>
+
+            </div>
+            <div class="contact__opening">
+                <h2>Opening times</h2>
+                <div class="inner clearfix">
+                    <span class="wow line-hr line-top"></span>
+                    <li>
+                        <span class="align-left">Monday - Sunday</span>
+                        <span class="align-right">07:00 - 01:00</span>
+                    </li>
+                    <li>
+                        <span class="align-left">Holidays</span>
+                        <span class="align-right">07:00 - 01:00</span>
+                    </li>
+                </div>
+            </div>
+        </section>
+
+        <footer id="colophon" class="footer" role="contentinfo">
+        <div class="footer__sns">
+            <a class="footer__sns__icon fb-icon" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="footer__sns__icon ig-icon" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+
+        <div id="footer__copyright">
+            <p>
+            &copy; Copyright 2025 Newtimes Amsterdam.
+            </p>
+        </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./assets/fancybox.js"></script>
+    <script src="./assets/animation.min.js"></script>
+    
+    <script type="text/javascript">
+    
+	$('.angle-down').click(function() {
+		$('html, body').animate({
+        	scrollTop: $("#intro").offset().top
+    	}, 1000);
+	});
+
+	$('.hamburger').click(function() {
+
+		if (!$(this).hasClass('open')) {
+	  		$('.hamburger').addClass('open');
+		  	$('.navigation').addClass('open');
+		} else {
+		  	$('.hamburger').removeClass('open');
+		  	$('.navigation').removeClass('open');
+		}
+	});
+
+	$('.navigation__menu__item a').each(function() {
+
+		$(this).click(function() {
+			$('.hamburger').removeClass('open');
+			$('.navigation').removeClass('open');
+
+			var $position = $(this).attr('data-scroll');
+
+			$('html, body').animate({
+				scrollTop: $($position).offset().top
+			}, 1000);
+
+			return false;
+		});
+
+	});
+
+    //fancybox
+	// $(".gallery__list__item a")
+    //     .attr('rel', 'gallery')
+    //     .fancybox({
+    // 		openEffect  : 'fade',
+    // 		closeEffect : 'none'
+	// });
+
+	new WOW().init();
+  </script>
+</body>
+</html>
