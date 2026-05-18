@@ -531,7 +531,7 @@ section {
   .contact .inner {
     position: relative;
     width: 100%;
-    padding-top: 20px;
+    padding: 20px 20px 0;
     font-size: 1.4rem;
     font-family: "Open Sans", sans-serif; }
     @media screen and (min-width: 768px) {
@@ -592,6 +592,7 @@ section {
         border-bottom: 1px solid; }
   .contact__opening {
     position: relative;
+    padding-bottom: 20px;
     width: 100%;
     height: auto;
     background-color: #333;
