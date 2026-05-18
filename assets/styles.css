@@ -537,6 +537,10 @@ section {
     @media screen and (min-width: 768px) {
       .contact .inner {
         font-size: 2rem; } }
+    .contact .inner li{
+      float: left;
+      list-style: none;
+      width: 100%;}
     .contact .inner .line-top {
       position: absolute;
       left: 0;
